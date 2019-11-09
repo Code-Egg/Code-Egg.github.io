@@ -294,7 +294,7 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "docs/_pages"
+      path: ""
       type: pages
     values:
       layout: single
