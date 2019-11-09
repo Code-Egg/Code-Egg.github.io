@@ -4,12 +4,12 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
     url: /about/
-  #- title: "Categories"
-  #  url: /categories/
-  #- title: "splash-page"
-  #  url: /splash-page
-  - title: "External Link"
-    url: https://google.com
+  - title: "Categories"
+    url: /categories/
+  - title: "Project"
+    url: /project/
+  #- title: "External Link"
+  #  url: https://google.com
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
