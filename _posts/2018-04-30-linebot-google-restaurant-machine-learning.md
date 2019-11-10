@@ -1,6 +1,6 @@
 ---
 categories:
-  - Web Scripting
+  - Scripting
 tags:
   - Python
   - Linebot

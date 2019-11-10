@@ -1,3 +1,5 @@
+---
+categories:
   - Scripting
 tags:
   - Magento 2
