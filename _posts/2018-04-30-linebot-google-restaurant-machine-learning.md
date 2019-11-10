@@ -21,7 +21,7 @@ tags:
 
 再來試試中文: e.g. 餐廳推推(不工作 XD) -> 餐廳推薦(工作) 
 
-<img src="/assets/images/S__4808852-169x300.jpg" alt="" width="576" height="1024"/>
+![](/assets/images/S__4808852-576x1024.jpg)
 
 ### 開啟 Heroku
 
