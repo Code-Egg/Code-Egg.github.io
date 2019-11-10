@@ -59,3 +59,5 @@ views.py
 *   搞定, 頭有點暈, 後面寫出的 function 很少能被重複使用 XD
 
 2016.10.10
+
+下一篇:  [Line Bot - Django - Platform to RHC](https://code-egg.github.io/scripting/linebot-django-4/)

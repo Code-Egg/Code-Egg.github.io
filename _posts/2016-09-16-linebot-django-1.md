@@ -94,3 +94,5 @@ B. 確認 Response value
 *   Python - One function do one thing
 
 2016/09/16 _剛學會一些 django 一點 python 與朋友來練習做出 LINE BOT 挺有趣的, 比預期花了不少時間在 debug 和思考流程上. 同時也第一次接觸 git 和 Azure._ _ps.在咖啡廳弄這有宅氣換發的感覺_ _Remark_ Official published on 2016.10 Line BOT -> Deprecated !!! 只好改用新的 API 於下一篇記錄
+
+下一篇:  [Line Bot - Django - Weather](https://code-egg.github.io/scripting/linebot-django-2/)

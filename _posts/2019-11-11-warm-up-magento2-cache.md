@@ -27,7 +27,18 @@ Magento 2 已內建模組來快速的產生 sitemap. 產生方法 sitemap Naviga
 
 ## Script 如何使用
 
-確認 script 擁有執行權限. -h = help -m = 支持 desktop+Mobile view -i = 修改每個頁面 request 間格 `sh M2_crawler.sh SITE-MAP-URL -m -i 0.2` Crawl 執行間格我們須多常執行呢? 得基於每次執行時間和 Public Cache TTL 設定.預設 TTL 為一天(24hr). .E.g. 每天執行兩次, at 3:30am/15:30:
+* -h, --help: Show this message and exit.
+* -m, --with-mobile: Crawl mobile view in addition to default view.
+* -c, --with-cookie: Crawl with site's cookies.
+* -b, --black-list: Page will be added to blacklist if HTML status error and no cache. Next run will bypass page.
+* -g, --general-ua: Use general user-agent instead of lscache_runner for desktop view.
+* -i, --interval: Change request interval. ''-i 0.2'' changes from default 0.1 second to 0.2 seconds.
+* -v, --verbose: Show complete response header under ''/tmp/crawler.log''.
+* -d, --debug-url: Test one URL directly. as in ''sh M2-crawler.sh -v -d http://example.com/test.html''.
+* -qs,--crawl-qs: Crawl sitemap, including URLS with query strings.
+* -r, --report: Display total count of crawl result.
+
+Crawl 執行間格我們須多常執行呢? 基於每次執行時間和 Public Cache TTL 設定.預設 TTL 為一天(24hr). .E.g. 每天執行兩次, at 3:30am/15:30:
 ```
 30 3/15 * * * path_to_script/M2_crawler.sh SITE-MAP-URL -m -i 0.2
 ```

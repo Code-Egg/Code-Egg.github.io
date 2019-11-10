@@ -49,3 +49,5 @@ multiplexing 的意義是：把原本依次執行的任務，變為同時執行�
 *   [python-blocking](http://anjianshi.net/post/yan-jiu-bi-ji/python-blocking)
 
 2016/10/25
+
+下一篇:  [Line Bot - Django - Platform to VPS](https://code-egg.github.io/scripting/linebot-django-6/)

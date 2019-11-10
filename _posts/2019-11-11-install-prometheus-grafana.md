@@ -121,4 +121,7 @@ systemctl status prometheus
 
 ### 6\. 優化執行程式方式
 
-監控重點之一為 Alert. 當伺服器失聯或是 CPU /Memory 使用過高, 網路延遲高 等等都可以自訂觸發 Alert. Prometheus 有 Alert 於頁面上可觀察, 但我們需要串接 email 或其他通訊平台來提高警覺. 此時需額外裝上 [AlertManager](https://prometheus.io/docs/alerting/alertmanager/) 來串接. ![](/assets/images/pro-22-1024x492.png) ![](/assets/images/pro-23-1024x457.png)   下一篇:  [監控面板 Grafana Alert 與 Slack 串接方法](https://site-optimize-note.tk/%E7%9B%A3%E6%8E%A7%E9%9D%A2%E6%9D%BF-grafana-alert-%E8%88%87-slack-%E4%B8%B2%E6%8E%A5%E6%96%B9%E6%B3%95/)
+監控重點之一為 Alert. 當伺服器失聯或是 CPU /Memory 使用過高, 網路延遲高 等等都可以自訂觸發 Alert. Prometheus 有 Alert 於頁面上可觀察, 但我們需要串接 email 或其他通訊平台來提高警覺. 此時需額外裝上 [AlertManager](https://prometheus.io/docs/alerting/alertmanager/) 來串接. 
+![](/assets/images/pro-22-1024x492.png) ![](/assets/images/pro-23-1024x457.png)
+
+下一篇:  [監控面板 Grafana Alert 與 Slack 串接方法](https://code-egg.github.io/tools/setup-grafana-alert-on-slack/)

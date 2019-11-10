@@ -38,3 +38,5 @@ git commit
 *   RHC 與  Azure 還蠻相同的, PC push 上去後自動執行.
 
 2016.10.16
+
+下一篇:  [Line Bot - Django - Non-Blocking](https://code-egg.github.io/scripting/linebot-django-5/)

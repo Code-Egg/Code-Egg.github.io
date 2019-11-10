@@ -42,3 +42,5 @@ LINE BOT redesigned LINE Developers site (9/21/2017)整個更新,換湯不換藥
 5.  結合 ML 套件玩分析
 
 2017/9/21
+
+下一篇:  [Line Bot - Django - Yelp and Google Map](https://code-egg.github.io/scripting/linebot-django-8/)

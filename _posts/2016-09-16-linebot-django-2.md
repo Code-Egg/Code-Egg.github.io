@@ -54,3 +54,5 @@ Response : Current country: GB Current weather: Rain Current tempearture: 12.12
 ### **心得:**
 
 *   純練習寫小程式, 95% 時間花在debug
+
+下一篇:  [Line Bot - Django - News&Food](https://code-egg.github.io/scripting/linebot-django-3/)

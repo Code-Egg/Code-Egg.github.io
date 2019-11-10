@@ -52,12 +52,12 @@ python3.6 manage.py startapp trips
 ```
 
 ### Step4 - Install Gunicorn:
-```
+``` bash
 pip3.6 install gunicorn
 ```
 
 #### Create three files for gunicorn setup:
-```
+``` bash
 cat <<EOF>> /etc/systemd/system/gunicorn.socket
 Description=gunicorn socket
 [Socket]
@@ -105,13 +105,26 @@ systemctl start gunicorn.socket
 *   Certificate: <span style="background-color: #eeeeee;">/etc/letsencrypt/live/$your_domain/cert.pem</span>
 *   CA Certificate: <span style="background-color: #eeeeee;">/etc/letsencrypt/live/$your_domain/chain.pem</span>
 
-**WebAdmin > Server Configuration > External App > Add a "Web Server"** Name: _**gunicorn**_ Address:**_127.0.0.1:5003_** Max Connections:_**100**_ Initial Request Timeout: _**60**_ Retry Timeout: _**0**_ **WebAdmin console > Configuration > Virtual Hosts > "Virtual Host Name" > Rewrite** Rewrite set to **Yes** **<span style="background-color: transparent; color: black; font-family: 'arial'; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Rewrite</span> **Rules: <span style="background-color: #eeeeee;">RewriteCond %{ORG_REQ_URI} !/static</span> <span style="background-color: #eeeeee;">RewriteRule ^/(.*)$ http://gunicorn/$1 [P]</span></div>
+**WebAdmin > Server Configuration > External App > Add a "Web Server"**
+Name: **gunicorn**
+Address:**127.0.0.1:5003** 
+Max Connections:**100**
+Initial Request Timeout: **60** 
+Retry Timeout: **0** 
+
+**WebAdmin console > Configuration > Virtual Hosts > "Virtual Host Name" > Rewrite** 
+Rewrite set to **Yes** **Rewrite</span> 
+**Rewrite Rules:
+```
+RewriteCond %{ORG_REQ_URI} !/static
+RewriteRule ^/(.*)$ http://gunicorn/$1 [P]
+```
 
 ### Step6 - Apply for free Domain and SSL:
 
 I choose [NCTU.me](https://nctu.me/) as my domain hosting, it's free, immediately effect, easy to use than e.g. [HE](https://dns.he.net/) I choose Let's encrypt - [certbot](https://certbot.eff.org/) as my SSL, it's free and LINE accept it, easy to use and popular. Choose "None of the above" on "CentOS 7" Let's Encrypt Install:
 
-```
+``` bash
 yum -y install yum-utils
 yum-config-manager --enable rhui-REGION-rhel-server-extras rhui-REGION-rhel-server-optional
 yum install certbot
@@ -130,3 +143,5 @@ certbot certonly
 That's it
 
 Welcome forward with cite source
+
+下一篇:  [Line Bot - Django - Rich Button](https://code-egg.github.io/scripting/linebot-django-7/)
