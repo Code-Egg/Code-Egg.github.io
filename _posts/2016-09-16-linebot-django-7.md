@@ -9,18 +9,24 @@ tags:
 
 **Rich Button: Dog, Beauty girl, Handsome men** 
 LINE BOT redesigned LINE Developers site (9/21/2017)整個更新,換湯不換藥. 
-但是 UI 變漂亮就是給個讚 LINE Developer login from: https://developers.line.me/console/
+但是 UI 變漂亮就是給個讚 
+
+LINE Developer login from: https://developers.line.me/console/
  
 [![](https://4.bp.blogspot.com/-UzXr9jiLJ5w/WcUEMRirtRI/AAAAAAAAGWk/kqRd2d5Exk07C2xhh9WL301FxULQ6EwMwCK4BGAYYCw/s320/Untitled.png)](http://4.bp.blogspot.com/-UzXr9jiLJ5w/WcUEMRirtRI/AAAAAAAAGWk/kqRd2d5Exk07C2xhh9WL301FxULQ6EwMwCK4BGAYYCw/s1600/Untitled.png) 
 
 Line git: https://github.com/line/ 
+
 Line document: https://devdocs.line.me/en/#reply-message
 
 ### Step1 - Create Rich Button from LINE Business:
 
-此功能需上官網開啟 >>> [https://admin-official.line.me/](https://admin-official.line.me/) 
+此功能需上官網開啟 >>> [https://admin-official.line.me/](https://admin-official.line.me/)
+ 
 "You can display a rich menu by going to the "Rich menu" page under the "Create rich content" page in the [LINE@ Manager](https://admin-official.line.me/)
+
 Click "Create New" to design the rich menu by uploading images to the LINE@ Manager and mapping them to text or URLs." 
+
 Rich menu can choose: Image or Text+icons
 
 ### Step2 - Create button function:

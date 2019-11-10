@@ -17,15 +17,28 @@ Input word: Test Output: Pumpkin picture with three buttons and Echo test in des
 
 #### **Step 2.**
 
-Input: Click "Weather" button Output:Text "Enter a city name" Input:Text "Taipei" Output: Text "It's "25.5"C and "Rain" in "TW"" and a weather picture [![](https://4.bp.blogspot.com/-HBiY_p-VIro/V_tmBU1pVDI/AAAAAAAAGQI/PMWgUNb7Mp0-udbPDAc0oEQupX-xMvI1gCK4B/s320/weatherbutton.png)](http://4.bp.blogspot.com/-HBiY_p-VIro/V_tmBU1pVDI/AAAAAAAAGQI/PMWgUNb7Mp0-udbPDAc0oEQupX-xMvI1gCK4B/s1600/weatherbutton.png)
+Input: Click "Weather" button 
+Output:Text "Enter a city name" 
+Input:Text "Taipei" 
+Output: Text "It's "25.5"C and "Rain" in "TW"" and a weather picture 
+
+[![](https://4.bp.blogspot.com/-HBiY_p-VIro/V_tmBU1pVDI/AAAAAAAAGQI/PMWgUNb7Mp0-udbPDAc0oEQupX-xMvI1gCK4B/s320/weatherbutton.png)](http://4.bp.blogspot.com/-HBiY_p-VIro/V_tmBU1pVDI/AAAAAAAAGQI/PMWgUNb7Mp0-udbPDAc0oEQupX-xMvI1gCK4B/s1600/weatherbutton.png)
 
 #### **Step 3.**
 
-Input: Click "Eat" button Output: Confirm message Input: Click "Delicious" button Output: Random "Delicious food" picture PS. Allow click buttons again and again. [![](https://1.bp.blogspot.com/-Nb8C0aITyAY/V_tnwUni30I/AAAAAAAAGQc/ciPkQqbAH74qfDTwpWB9SBax5jDVDvoYQCK4B/s400/eatpicture.png)](http://1.bp.blogspot.com/-Nb8C0aITyAY/V_tnwUni30I/AAAAAAAAGQc/ciPkQqbAH74qfDTwpWB9SBax5jDVDvoYQCK4B/s1600/eatpicture.png) 
+Input: Click "Eat" button 
+Output: Confirm message 
+Input: Click "Delicious" button 
+Output: Random "Delicious food" picture PS. Allow click buttons again and again. 
+
+[![](https://1.bp.blogspot.com/-Nb8C0aITyAY/V_tnwUni30I/AAAAAAAAGQc/ciPkQqbAH74qfDTwpWB9SBax5jDVDvoYQCK4B/s400/eatpicture.png)](http://1.bp.blogspot.com/-Nb8C0aITyAY/V_tnwUni30I/AAAAAAAAGQc/ciPkQqbAH74qfDTwpWB9SBax5jDVDvoYQCK4B/s1600/eatpicture.png) 
 
 #### **Step 4.**
 
-Input: Click "News" button Output: Four "News template" with Title, Description, and HyperLink. [![](https://2.bp.blogspot.com/-ewa7fSqNm0M/V_tot-_F5TI/AAAAAAAAGQo/dXM2TfsA5-8hvgOPvtMCV10YHSOhhrvYQCK4B/s320/newspicture.png)](http://2.bp.blogspot.com/-ewa7fSqNm0M/V_tot-_F5TI/AAAAAAAAGQo/dXM2TfsA5-8hvgOPvtMCV10YHSOhhrvYQCK4B/s1600/newspicture.png)
+Input: Click "News" button 
+Output: Four "News template" with Title, Description, and HyperLink. 
+
+[![](https://2.bp.blogspot.com/-ewa7fSqNm0M/V_tot-_F5TI/AAAAAAAAGQo/dXM2TfsA5-8hvgOPvtMCV10YHSOhhrvYQCK4B/s320/newspicture.png)](http://2.bp.blogspot.com/-ewa7fSqNm0M/V_tot-_F5TI/AAAAAAAAGQo/dXM2TfsA5-8hvgOPvtMCV10YHSOhhrvYQCK4B/s1600/newspicture.png)
 
 ### **Code:**
 

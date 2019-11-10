@@ -101,9 +101,9 @@ systemctl start gunicorn.socket
 2.  Both listeners add "Virtual Host Mappings" with $your_domain
 3.  **After Step6 setup**, you need to add SSL Key&Cert for port 443
 
-*   Private Key:  <span style="background-color: #eeeeee;">/etc/letsencrypt/live/$your_domain/privkey.pem</span>
-*   Certificate: <span style="background-color: #eeeeee;">/etc/letsencrypt/live/$your_domain/cert.pem</span>
-*   CA Certificate: <span style="background-color: #eeeeee;">/etc/letsencrypt/live/$your_domain/chain.pem</span>
+*   Private Key: `/etc/letsencrypt/live/$your_domain/privkey.pem`
+*   Certificate: `/etc/letsencrypt/live/$your_domain/cert.pem`
+*   CA Certificate: `/etc/letsencrypt/live/$your_domain/chain.pem`
 
 **WebAdmin > Server Configuration > External App > Add a "Web Server"**
 Name: **gunicorn**

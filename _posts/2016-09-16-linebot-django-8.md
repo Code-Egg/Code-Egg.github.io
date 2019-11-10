@@ -7,9 +7,10 @@ tags:
 ---
 **LINE BOT Message 初學者記錄(八) ** 
 **Casual template: Yelp restaurant + Location** 
-為了能在各國旅遊時可以方便找到優質餐廳, 結合 Location 和 Yelp 即可輕鬆達成 先看作品完成圖: 不管德國, 台灣, 美國... 都可輕鬆取得優質餐廳資訊
+為了能在各國旅遊時可以方便找到優質餐廳, 結合 Location 和 Yelp 即可輕鬆達成 
 
- 
+先看作品完成圖: 不管德國, 台灣, 美國... 都可輕鬆取得優質餐廳資訊
+
 [![](https://4.bp.blogspot.com/-sehqkln3Em0/Wc-6EaYZcII/AAAAAAAAGXc/i4COmXlMovkLKh9ijteHblBUr0niBxGeACK4BGAYYCw/s320/S__2736206.jpg)](http://4.bp.blogspot.com/-sehqkln3Em0/Wc-6EaYZcII/AAAAAAAAGXc/i4COmXlMovkLKh9ijteHblBUr0niBxGeACK4BGAYYCw/s1600/S__2736206.jpg)    [![](https://2.bp.blogspot.com/-8p7-TlByBm8/Wc-6ERK3OOI/AAAAAAAAGXU/QcnUS4nL0twgADetb4HutMgQJJ-yslM2gCK4BGAYYCw/s320/S__2736207.jpg)](http://2.bp.blogspot.com/-8p7-TlByBm8/Wc-6ERK3OOI/AAAAAAAAGXU/QcnUS4nL0twgADetb4HutMgQJJ-yslM2gCK4BGAYYCw/s1600/S__2736207.jpg)    [![](https://1.bp.blogspot.com/-GZQ7KJcoSow/Wc-6ERry-VI/AAAAAAAAGXY/_tpwFPXIha4ahqVodk8dxw5flH77VJLVwCK4BGAYYCw/s320/S__2736208.jpg)](http://1.bp.blogspot.com/-GZQ7KJcoSow/Wc-6ERry-VI/AAAAAAAAGXY/_tpwFPXIha4ahqVodk8dxw5flH77VJLVwCK4BGAYYCw/s1600/S__2736208.jpg)
 
 ### Step1 - Distinguish message from user is Location or Text:
