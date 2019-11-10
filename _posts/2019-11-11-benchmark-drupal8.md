@@ -19,9 +19,12 @@ CentOS7 -> Web Server(e.g. Apache 2.4.6) ->PHP 7.1 ->  Drupal 8 -> Varnish -> P
 
 ### Install Varnish
 
-``` php
+```
 yum install -y epel-release pygpgme yum-utils 
-vi /etc/yum.repos.d/varnishcache_varnish5.repo 
+```
+
+edit /etc/yum.repos.d/varnishcache_varnish5.repo
+```
 [varnishcache_varnish5] 
 name=varnishcache_varnish5 
 baseurl=https://packagecloud.io/varnishcache/varnish5/el/7/$basearch 
@@ -39,6 +42,8 @@ gpgkey=https://packagecloud.io/varnishcache/varnish5/gpgkey
 sslverify=1 
 sslcacert=/etc/pki/tls/certs/ca-bundle.crt 
 metadata_expire=300 
+```
+```
 yum -q makecache -y --disablerepo='*' --enablerepo='varnishcache_varnish5' 
 yum -y install varnish
 ```
@@ -50,7 +55,10 @@ yum -y install varnish
 #### Benchmark
 
 
-簡易使用 ab tool 即可開始測試 Default varnish port 為 6081 HTTPD port 預設為 80 故測試不同 port 即可知道  Drupal 8 內建 Cache 與 Varnish 速度個多少 `ab -k -n 10000 -c 10 -H "Accept-Encoding: gzip,deflate" $SERVER_IP:6081/ ab -k -n 1000 -c 10 -H "Accept-Encoding: gzip,deflate" $SERVER_IP:80/`  
+簡易使用 ab tool 即可開始測試 Default varnish port 為 6081 HTTPD port 預設為 80 故測試不同 port 即可知道  Drupal 8 內建 Cache 與 Varnish 速度個多少 
+```
+ab -k -n 10000 -c 10 -H "Accept-Encoding: gzip,deflate" $SERVER_IP:6081/ ab -k -n 1000 -c 10 -H "Accept-Encoding: gzip,deflate" $SERVER_IP:80/
+```  
 
 #### Varnish Purge on Drupal
 
