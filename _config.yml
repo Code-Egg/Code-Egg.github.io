@@ -16,16 +16,16 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Egg Home"
+title                    : "Cold-Egg Note"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Cold Egg"
+subtitle                 : "冷蛋筆記本" # site tagline that appears below site title in masthead
+name                     : "Cold-Egg Note"
 description              : "An egg website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/mashimaro.jpg"
+logo                     : # "/assets/images/mashimaro.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -107,9 +107,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Egg"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an Egg."
+  name             : "Eric"
+  avatar           : "/assets/images/mashimaro.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "半夜開冰箱"
   location         : "Somewhere, USA"
   email            :
   links:
@@ -124,7 +124,7 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/"
+      # url: "https://www.facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Code-Egg/"
