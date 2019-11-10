@@ -52,7 +52,6 @@ To ensure that LiteMage is working correctly, visit a page that should be cache 
 ![](/assets/images/ma2-18-1024x490.png)
 **Initial time 4.49s -> 15ms**
 **Page Load time 6.35s -> 1.64s**
-</pre>
 
 ### Debug
 
