@@ -9,8 +9,10 @@ tags:
 
 **Rich Button: Dog, Beauty girl, Handsome men** 
 LINE BOT redesigned LINE Developers site (9/21/2017)整個更新,換湯不換藥. 
-但是 UI 變漂亮就是給個讚 LINE Developer login from: https://developers.line.me/console/ 
+但是 UI 變漂亮就是給個讚 LINE Developer login from: https://developers.line.me/console/
+ 
 [![](https://4.bp.blogspot.com/-UzXr9jiLJ5w/WcUEMRirtRI/AAAAAAAAGWk/kqRd2d5Exk07C2xhh9WL301FxULQ6EwMwCK4BGAYYCw/s320/Untitled.png)](http://4.bp.blogspot.com/-UzXr9jiLJ5w/WcUEMRirtRI/AAAAAAAAGWk/kqRd2d5Exk07C2xhh9WL301FxULQ6EwMwCK4BGAYYCw/s1600/Untitled.png) 
+
 Line git: https://github.com/line/ 
 Line document: https://devdocs.line.me/en/#reply-message
 

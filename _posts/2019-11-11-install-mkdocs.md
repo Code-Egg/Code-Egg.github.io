@@ -27,4 +27,4 @@ mkdocs build
 ```
 ### Step 5\. Verify
 
-Visit **http://Server_IP/my-project/site** ![](/assets/images/Screen-Shot-2019-01-14-at-10.12.49-PM.png) 基本上佈建就完成了, BUT , 預設資料看起來不夠美 [下篇將介紹 MkDocs 快速上手](https://site-optimize-note.tk/mkdocs-%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/)
+Visit **http://Server_IP/my-project/site** ![](/assets/images/Screen-Shot-2019-01-14-at-10.12.49-PM.png) 基本上佈建就完成了, BUT , 預設資料看起來不夠美 [下篇將介紹 MkDocs 快速上手](https://code-egg.github.io/tools/mkdocs-start/)

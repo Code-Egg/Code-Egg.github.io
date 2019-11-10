@@ -32,7 +32,16 @@ systemctl start docker
 ```
 docker run -d -p 9000:9000 --restart always -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
 ```
-瀏覽器輸入 IP:9000 即可導入以下網頁 ![](/assets/images/jen-6.png) 打算跑 Docker 與 Portainer 於同一台 Server 就選 Local ![](https://site-optimize-note.tk/wp-content/uploads/2018/01/jen-7.png) 介面簡潔俐落 ![](/assets/images/jen-8-1024x363.png)
+瀏覽器輸入 IP:9000 即可導入以下網頁 
+![](/assets/images/jen-6.png) 
+
+打算跑 Docker 與 Portainer 於同一台 Server 就選 Local 
+
+![](/assets/images/jen-7.png) 
+
+介面簡潔俐落 
+
+![](/assets/images/jen-8-1024x363.png)
 
 ## Install Jenkins
 

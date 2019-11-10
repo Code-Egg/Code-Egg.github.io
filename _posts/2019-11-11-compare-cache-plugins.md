@@ -41,4 +41,4 @@ LSCache, WP Rocket W3 total 分別提供不同 plugins 的相容性
 
 #### 更多:
 
-[How to optimize your site](https://site-optimize-note.tk/how-to-optimize-your-site-page-score/) – Page Score
+[How to optimize your site](https://code-egg.github.io/application/optimize-page-score/) – Page Score
