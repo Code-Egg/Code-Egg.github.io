@@ -5,7 +5,13 @@ tags:
   - Magento 1.9
   - OpenLiteSpeed
 ---
-Magento1+OLS install script Install OpenLiteSpeed + PHP71 + Magento1.9 on Centos7x64 Defualt OpenLiteSpeed: admin/123456 Default Magento Database: magento/magento/magento Default mysql: root/123456 How to use: Install this script directly without any parameter, then install magento settings from web.
+Magento1+OLS install script Install OpenLiteSpeed + PHP71 + Magento1.9 on Centos7x64 
+
+Defualt OpenLiteSpeed: admin/123456 
+Default Magento Database: magento/magento/magento 
+Default mysql: root/123456 
+
+How to use: Install this script directly without any parameter, then install magento settings from web.
 ``` bash
 #!/bin/bash
 #Install OpenLiteSpeed, PHP71 and Magento1.9.3.3 on CentOS7
