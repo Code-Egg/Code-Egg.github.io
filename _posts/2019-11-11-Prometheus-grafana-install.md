@@ -53,16 +53,15 @@ group: 'Local-Node'
 
 Grafana [download](https://grafana.com/grafana/download) 或直接使用以下命令安裝並執行
 ```
-    wget https://s3-us-west-2.amazonaws.com/grafana-releases/release/grafana-4.6.3-1.x86_64.rpm
-    yum localinstall grafana-4.6.3-1.x86_64.rpm
-    systemctl start grafana-server
+wget https://s3-us-west-2.amazonaws.com/grafana-releases/release/grafana-4.6.3-1.x86_64.rpm
+yum localinstall grafana-4.6.3-1.x86_64.rpm
+systemctl start grafana-server
 ```
 
 #### b. 新增 Prommetheus 為資料來源
 
-Grafana 主畫面請輸入 http://your_server_ip:3000/</div>
-
-點選 main menu -> Data Sources -> Add new</div>
+Grafana 主畫面請輸入 http://your_server_ip:3000/
+點選 main menu -> Data Sources -> Add new
 
 
 *   Name: Prometheus
