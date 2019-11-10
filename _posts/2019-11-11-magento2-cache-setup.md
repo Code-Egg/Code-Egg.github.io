@@ -30,13 +30,15 @@ tags:
 
 #### SSH 進入 server, 執行下列命令安裝 LiteMage Cache plugin
 
-    php bin/magento deploy:mode:set developer
-    wget https://github.com/litespeedtech/magento2-LiteSpeed_LiteMage/archive/master.zip
-    mkdir -p app/code/Litespeed/Litemage
-    mv /path/to/magento2-LiteSpeed_LiteMage-master/* app/code/Litespeed/Litemage/
-    php bin/magento module:enable Litespeed_Litemage
-    php bin/magento deploy:mode:set production
-    echo "LiteMage on" >> .htaccess
+``` bash
+php bin/magento deploy:mode:set developer
+wget https://github.com/litespeedtech/magento2-LiteSpeed_LiteMage/archive/master.zip
+mkdir -p app/code/Litespeed/Litemage
+mv /path/to/magento2-LiteSpeed_LiteMage-master/* app/code/Litespeed/Litemage/
+php bin/magento module:enable Litespeed_Litemage
+php bin/magento deploy:mode:set production
+echo "LiteMage on" >> .htaccess
+```
 
 #### UI 進入後台使 Cache 運行
 
@@ -46,7 +48,8 @@ In Store > Configuration > Advanced > System, make sure LiteMage is enabled and 
 
 To ensure that LiteMage is working correctly, visit a page that should be cache enabled and open your browser's inspector by right clicking the page and selecting “inspect”. Then select the “Network” tab and refresh the page. Under “Headers”, check the response header for the following LiteMage related info.   ![](/assets/images/ma2-14.png)
 
-<pre class="code">**X-LiteSpeed-Cache: hit,litemage**![](/assets/images/ma2-18-1024x490.png)
+**X-LiteSpeed-Cache: hit,litemage**
+![](/assets/images/ma2-18-1024x490.png)
 **Initial time 4.49s -> 15ms**
 **Page Load time 6.35s -> 1.64s**
 </pre>
