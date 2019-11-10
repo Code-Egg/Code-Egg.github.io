@@ -13,7 +13,7 @@ tags:
 
     composer create-project craftcms/craft /home/democraftcms/public_html/craft3
 
-![](https://site-optimize-note.tk/wp-content/uploads/2018/09/craft-2.png) 更改檔案權限
+![](/assets/images/craft-2.png) 更改檔案權限
 
     chown -R democraftcms:democraftcms craft3/
 
@@ -21,7 +21,7 @@ tags:
 
     /home/democraftcms/public_html/craft3/craft setup
 
-![](https://site-optimize-note.tk/wp-content/uploads/2018/09/craft-3.png) 安裝成功後可以看到的預設前端介面 ![](https://site-optimize-note.tk/wp-content/uploads/2018/09/craft-4-1024x681.png) 使用者後台 ![](https://site-optimize-note.tk/wp-content/uploads/2018/09/craft-5-1024x496.png)
+![](/assets/images/craft-3.png) 安裝成功後可以看到的預設前端介面 ![](/assets/images/craft-4-1024x681.png) 使用者後台 ![](/assets/images/craft-5-1024x496.png)
 
 ## 安裝第三方 Demo 資料 (Optional)
 
@@ -61,7 +61,7 @@ tags:
 *   Username: admin
 *   Password: password
 
-## ![](https://site-optimize-note.tk/wp-content/uploads/2018/09/craft-6-1024x602.png)
+## ![](/assets/images/craft-6-1024x602.png)
 
 ## Note: Craft 安裝需求
 
