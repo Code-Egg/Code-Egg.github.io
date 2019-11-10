@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Eric"
-  avatar           : "/assets/images/mashimaro.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/mashimaro2.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "半夜開冰箱"
   location         : "Somewhere, USA"
   email            :
