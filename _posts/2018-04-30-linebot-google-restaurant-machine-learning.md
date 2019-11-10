@@ -17,7 +17,11 @@ tags:
 1.  直接點送出位置
 2.  bot 回隨機一間餐廳
 
-![](/assets/images/S__4808830-576x1024.jpg) 再來試試中文: e.g. 餐廳推推(不工作 XD) -> 餐廳推薦(工作) ![](/assets/images/S__4808852-169x300.jpg)  
+![](/assets/images/S__4808830-576x1024.jpg) 
+
+再來試試中文: e.g. 餐廳推推(不工作 XD) -> 餐廳推薦(工作) 
+
+![](/assets/images/S__4808852-169x300.jpg)  
 
 ### 開啟 Heroku
 
@@ -47,8 +51,8 @@ Procfile:
 *   web: python app.py
 
 app.py:
-
- import os
+```
+import os
 import apiai
 import json
 import requests
@@ -225,7 +229,7 @@ def handle_location_message(event):
             ]
         )
     )
-
+```
 ### 心得:
 
 1.  藉由 LINE SDK 可以寫出簡約卻非常完整的程式, 但如果想了解架構可能得自己來弄一遍才行.
