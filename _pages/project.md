@@ -2,6 +2,7 @@
 permalink: /project/
 title: "Project"
 toc: true
+toc_label: "Title"
 ---
 ## One Click in the Cloud
 
