@@ -13,13 +13,13 @@ tags:
 
 Prestashop 可使用 ”Google Sitemap Module“ 來產生方法 sitemap 
 
-Download [[https://github.com/PrestaShop/gsitemap/archive/master.zip | gsitemap]]; then change the file name to ''gsitemap.zip''.
+Download [https://github.com/PrestaShop/gsitemap/archive/master.zip | gsitemap]; then change the file name to `gsitemap.zip`.
 
-Click the **Configure** button, you will see e.g. ''xxx/1_index_sitemap.xml''(This is your main SITE-MAP-URL, ). 
+Click the **Configure** button and you will see e.g. `xxx/1_index_sitemap.xml`(This is your main SITE-MAP-URL, ). 
 
 ## Crawler Script
 
-[下載](Download from here)
+<a href="#" class="btn btn--info">[下載](https://www.litespeedtech.com/packages/prestashop/cachecrawler.sh)</a>
 
 <script src="https://gist.github.com/Code-Egg/ff6a3c26df3bc29c247a4e9eedb2692e.js"></script>
 
