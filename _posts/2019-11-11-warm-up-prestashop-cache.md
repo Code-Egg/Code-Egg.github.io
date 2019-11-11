@@ -19,6 +19,9 @@ Click the **Configure** button and you will see e.g. `xxx/1_index_sitemap.xml`(T
 
 ## Crawler Script
 
+[Download]({{ "https://www.litespeedtech.com/packages/prestashop/cachecrawler.sh" | relative_url }}){: .btn .btn--success .btn--large}
+[Download]({{ "https://www.litespeedtech.com/packages/prestashop/cachecrawler.sh" | relative_url }}){: .btn .btn--success}
+
 [下載](https://www.litespeedtech.com/packages/prestashop/cachecrawler.sh)
 
 <script src="https://gist.github.com/Code-Egg/ff6a3c26df3bc29c247a4e9eedb2692e.js"></script>
