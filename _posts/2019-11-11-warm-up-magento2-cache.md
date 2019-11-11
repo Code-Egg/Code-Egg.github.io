@@ -21,7 +21,7 @@ Magento 2 已內建模組來快速的產生 sitemap. 產生方法 sitemap Naviga
 
 ## Crawler Script
 
-<a href="#" class="btn btn--info">[下載](https://www.litespeedtech.com/packages/litemage2.0/M2-crawler.sh)</a>
+[下載](https://www.litespeedtech.com/packages/litemage2.0/M2-crawler.sh)
 
 <script src="https://gist.github.com/Code-Egg/188dd65ec4c69f517c50a66bedeb759d.js"></script>
 
