@@ -19,5 +19,29 @@ toc_label: "Title"
 
 ## Crawler Scripts
 
+|Prestashop|Magento 2|
+| :------: | :------: |
+|[Download](https://www.litespeedtech.com/packages/prestashop/cachecrawler.sh)|[Download](https://www.litespeedtech.com/packages/litemage2.0/M2-crawler.sh)|
+
+## One Click LSWS + WordPress installation
+[lsws1clk](https://github.com/Code-Egg/lsws1clk) is a one-click installation script for LiteSpeed Web Server. Using this script, you can quickly and easily install high performance wordpress site. 
+
+![](https://github.com/Code-Egg/lsws1clk/blob/master/img/loader-3.png)
+
+Packages
+
+| Component | Version |
+| -------- | -------- |
+| Linux | CentOS/Ubuntu/Debian |
+| LiteSpeed   | [Latest from LiteSpeedtech](https://www.litespeedtech.com/products/litespeed-web-server/download)     |
+| MariaDB     | [Latest_from_repo](https://mariadb.com/kb/en/library/changes-improvements-in-mariadb-103/)     |
+| WordPress   | [Latest_from_wordpress](https://wordpress.org/download/)     |
+| PHP     | [Latest from LiteSpeedtech repo](http://rpms.litespeedtech.com/)     |
+| phpMyAdmin| [Latest from phpMyAdmin](https://www.phpmyadmin.net/files/) |
+| LiteSpeed Cache     | [Latest from WordPress.org](https://wordpress.org/plugins/litespeed-cache/)     |
+| memcached     | [Latest from repo](https://memcached.org/about)     |
+| redis     | [Latest from repo](https://redis.io/)     |
+| Certbot     | [Latest from Certbot’s PPA](https://launchpad.net/~certbot/+archive/ubuntu/certbot)|
+|Postfix|[Latest from APT](https://packages.ubuntu.com/bionic/postfix)|
 
 
