@@ -19,9 +19,10 @@ toc_label: "Title"
 
 ## Crawler Scripts
 
-|Prestashop|Magento 2|
-| :------: | :------: |
-|[Download](https://www.litespeedtech.com/packages/prestashop/cachecrawler.sh)|[Download](https://www.litespeedtech.com/packages/litemage2.0/M2-crawler.sh)|
+|Application|Prestashop|Magento 2|
+| :------: | :------: | :------: |
+|Download|[Here](https://www.litespeedtech.com/packages/prestashop/cachecrawler.sh)|[Here](https://www.litespeedtech.com/packages/litemage2.0/M2-crawler.sh)|
+|Command|`bash cachecrawler.sh`|`bash M2-crawler.sh`|
 
 ## One Click LSWS + WordPress
 [lsws1clk](https://github.com/Code-Egg/lsws1clk) is a one-click installation script for LiteSpeed Web Server. Using this script, you can quickly and easily install high performance wordpress site. 
