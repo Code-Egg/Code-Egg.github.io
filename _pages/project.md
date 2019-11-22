@@ -23,10 +23,10 @@ toc_label: "Title"
 | :------: | :------: |
 |[Download](https://www.litespeedtech.com/packages/prestashop/cachecrawler.sh)|[Download](https://www.litespeedtech.com/packages/litemage2.0/M2-crawler.sh)|
 
-## One Click LSWS + WordPress installation
+## One Click LSWS + WordPress
 [lsws1clk](https://github.com/Code-Egg/lsws1clk) is a one-click installation script for LiteSpeed Web Server. Using this script, you can quickly and easily install high performance wordpress site. 
 
-![](https://github.com/Code-Egg/lsws1clk/blob/master/img/loader-3.png)
+<img src="/assets/images/loader-3.png">
 
 Packages
 
