@@ -11,26 +11,25 @@ header:
 #  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
 #  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.17.2">Latest release v4.17.2</a></small>
 feature_row:
-  - image_path: /assets/images/litespeed-logo.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "TEST"
-    url: "/docs/configuration/"
+  - image_path: /assets/images/pump.JPG
+    alt: "Super Food"
+    title: "Super Food"
+    url: ""
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/openlitespeed-logo.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "TEST"
-    url: "/docs/layouts/"
+  - image_path: /assets/images/anim.JPG
+    alt: "Super Animal"
+    title: "Super Animal"
+    url: ""
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/DO-logo.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "TEST"
-    url: "/docs/license/"
+  - image_path: /assets/images/view.JPG
+    alt: "Super View"
+    title: "Super View"
+    url: ""
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---
 {% include feature_row %}
+
+
