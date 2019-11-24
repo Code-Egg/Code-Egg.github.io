@@ -131,6 +131,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Linkdin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/eric-lu-89893073/"
 
 # Site Footer
 footer:
