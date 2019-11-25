@@ -8,7 +8,7 @@ header:
 #    - label: "<i class='fas fa-download'></i> Install now"
 #      url: "/docs/quick-start-guide/"
 excerpt: >
-Don't you think home page is so random?!
+  Don't you think home page is so random?!
 
 feature_row:
   - image_path: /assets/images/pump.JPG
