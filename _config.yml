@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Cold-Egg Note"
 title_separator          : "-"
 subtitle                 : "冷蛋筆記本" # site tagline that appears below site title in masthead
-name                     : "Cold-Egg Note"
+name                     : "Don't you think home page is so random?!"
 description              : "An egg website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
